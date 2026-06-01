@@ -29,8 +29,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
   },
-  // TODO: Replace with actual Google Search Console verification code
-  // verification: { google: 'YOUR_GOOGLE_VERIFICATION_CODE' },
+  verification: { google: 'p1cvl5xI8EE216kYTizU6VLkXteSzf_NNleE92gmcDw' },
 }
 
 export default function RootLayout({
