@@ -3,7 +3,7 @@ import type { TaxRegion, TaxYear } from './types'
 
 export const SITE_NAME = 'UK Salary Calculator'
 export const SITE_DESCRIPTION = 'Calculate your take-home pay after tax and National Insurance for UK and Scotland. Free salary calculator with detailed tax breakdown.'
-export const SITE_URL = 'https://www.uksalarycalculator.com'
+export const SITE_URL = 'https://salaryukcalculator.vercel.app'
 export const SITE_TWITTER_HANDLE = '@uksalarycalc'
 
 export const WORK_HOURS_PER_WEEK = 40

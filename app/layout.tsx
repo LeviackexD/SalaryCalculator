@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   description:
     'Calculate your take-home pay after tax and National Insurance for UK and Scotland. Free salary calculator with detailed tax breakdown, hourly rates, and tax band information.',
-  metadataBase: new URL('https://www.uksalarycalculator.com'),
+  metadataBase: new URL('https://salaryukcalculator.vercel.app'),
   robots: {
     index: true,
     follow: true,
