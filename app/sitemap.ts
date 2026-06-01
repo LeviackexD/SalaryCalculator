@@ -42,21 +42,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
     .map((s) => ({
       url: `${SITE_URL}/salary/${s.slug}`,
-      lastModified: new Date(),
+      lastModified: new Date().toISOString().split('T')[0],
       changeFrequency: 'monthly' as const,
       priority: getIndexingStatus(s.slug).priority,
     }))
 
   const blogPages: MetadataRoute.Sitemap = BLOG_SLUGS.map((slug) => ({
     url: `${SITE_URL}/blog/${slug}`,
-    lastModified: new Date(),
+    lastModified: new Date().toISOString().split('T')[0],
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }))
 
   const staticPages: MetadataRoute.Sitemap = STATIC_PAGES.map((p) => ({
     url: p.url,
-    lastModified: new Date(),
+    lastModified: new Date().toISOString().split('T')[0],
     changeFrequency: p.freq,
     priority: p.priority,
   }))
